@@ -19,7 +19,7 @@
 
   .singlenews {
     width: 33%;
-    height: 55vh;
+    min-height: 55vh;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -62,7 +62,7 @@
 
     .singlenews {
       width: 25%;
-      height: 65vh;
+      min-height: 65vh;
       position: relative;
       background-size: cover;
       background-position: center;

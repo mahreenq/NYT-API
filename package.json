@@ -1,0 +1,29 @@
+{
+  "name": "project002-nyt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahreenq/PROJECT002-NYT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahreenq/PROJECT002-NYT/issues"
+  },
+  "homepage": "https://github.com/mahreenq/PROJECT002-NYT#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-uglifycss": "^1.0.8"
+  }
+}
