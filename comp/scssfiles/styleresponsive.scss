@@ -3,6 +3,7 @@
 
   .nytLogoTablet{
     width: 25%;
+    padding: 1rem 1rem 0 0;
   }
 
   .dropdownTablet {
@@ -37,6 +38,7 @@
 
   .minified{
     height: 20vh;
+    padding: 0 0 0 0;
   }
 
 }
@@ -45,8 +47,13 @@
     @media only screen and (min-width:1000px ){
 
       .nytLogoDesktop{
-        width: 15%;
+        width: 15rem;
+        padding: 0 0 0 0;
       }
+
+      // .nytlogo img {
+      //   width: 200rem;
+      // }
 
       .dropdownTablet {
         padding-bottom: 0rem;
@@ -82,8 +89,7 @@
     }
 
     .minified img{
-      height: 15vh;
-      width: 50%;
+      width: 5rem;
     }
 
     .minified{
