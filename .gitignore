@@ -3,3 +3,5 @@
 testscript.js
 *.ttf
 /node_modules/**
+instanews-desktop-initial.png
+*.png

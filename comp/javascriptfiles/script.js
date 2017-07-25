@@ -27,8 +27,6 @@ for (var i=0; i<result.results.length; i++) {
       var abstract = '<p class = "abstract">'+result.results[i].abstract +' </p> ' ;
       var link = result.results[i].url;
       var image = result.results[i].multimedia[4].url;
-      //var image = '<img src=" '+ result.results[i].multimedia[4].url +' "/> ';
-      //var htmlElements =  '<div class="singlenews">' + image + ' <a href="' +link +'">' +abstract + ' </a> </div>';
       var htmlElements =  '<a href="' +link +'">' +abstract + ' </a> ';
 
       var createDiv = $("<div></div>");
@@ -37,8 +35,6 @@ for (var i=0; i<result.results.length; i++) {
       createDiv.css('background-image', "url(" + image + ")");   // go
       createDiv.append(htmlElements);
 
-      // var newsblock = document.getElementById('newsblock');
-      //   newsblock.innerHTML += htmlElements;
 
 
     console.log (count++);
@@ -47,7 +43,7 @@ for (var i=0; i<result.results.length; i++) {
   break;
 }
  }
-//  console.log(newsblock);
+
 }).fail(function(err) {
   throw err;
 });
