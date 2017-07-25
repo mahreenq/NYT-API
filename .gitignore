@@ -5,3 +5,4 @@ testscript.js
 /node_modules/**
 instanews-desktop-initial.png
 *.png
+assets/images/ajax-loader.gif

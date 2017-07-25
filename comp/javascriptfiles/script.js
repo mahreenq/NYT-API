@@ -32,7 +32,7 @@ for (var i=0; i<result.results.length; i++) {
       var createDiv = $("<div></div>");
       createDiv.addClass('singlenews');
       $('#newsblock').append(createDiv);
-      createDiv.css('background-image', "url(" + image + ")");   // go
+      createDiv.css('background-image', "url(" + image + ")"); 
       createDiv.append(htmlElements);
 
 
