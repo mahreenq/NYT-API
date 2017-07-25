@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 20px; /* NOT WORKING CHECK BACK*/
+}
+
+/*.fontOpenSans {
+  font-family: 'Open Sans', sans-serif;
+}*/
+
+.nytlogo{
+  width: 100%;
+}
+
+.articleTitle{
+  display: none;
+}
+
+.dropdown {
+  padding-bottom: 4rem;
+}
+
+ #selectDropdown{
+   width: 10rem;
+ }
+
+.chooseText{
+  width: 100%;
+}
+
+.singlenews a {
+  color: white;
+  text-decoration: none;
+}
+
+.singlenews {
+     position: relative;
+     width: 100%;
+     height: 45vh;
+     background-size: cover;
+     background-position: center;
+}
+
+.abstract {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  position: absolute;
+  bottom: 0rem;
+  width: 100%;
+  line-height: 1.5rem;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+
+}
